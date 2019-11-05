@@ -1,0 +1,6 @@
+name: brian-perry-interactive
+recipe: pantheon
+config:
+  framework: drupal8
+  site: brian-perry-interactive
+  id: 2e8cbc1f-4fa0-4ff9-a003-6a1f7cc83580
