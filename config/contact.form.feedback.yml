@@ -1,0 +1,14 @@
+uuid: 3a987166-5ab6-4a31-a5c6-3822038e1647
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - contact.brianperry@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
