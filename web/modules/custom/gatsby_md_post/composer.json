@@ -1,0 +1,16 @@
+{
+    "name": "drupal/gatsby_md_post",
+    "description": "Markdown posts for use with the Drupal Markdown Post Gatsby theme",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["drupal", "gatsby", "markdown"],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/insert": "^1.0"
+    }
+}

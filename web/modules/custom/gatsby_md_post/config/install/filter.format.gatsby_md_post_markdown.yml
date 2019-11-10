@@ -1,0 +1,17 @@
+uuid: 2dc7d2fd-fac4-4e49-9c1a-3f4ef3d242b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - markdown
+name: 'Gatsby Markdown'
+format: gatsby_md_post_markdown
+weight: 0
+filters:
+  markdown:
+    id: markdown
+    provider: markdown
+    status: true
+    weight: 0
+    settings:
+      markdown_library: commonmark

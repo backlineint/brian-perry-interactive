@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.gatsby_md_post_markdown_post
+  module:
+    - text
+id: node.gatsby_md_post_markdown_post.body
+field_name: body
+entity_type: node
+bundle: gatsby_md_post_markdown_post
+label: Body
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    summary: ''
+    value: '*Enter markdown here*'
+    format: gatsby_md_post_markdown
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

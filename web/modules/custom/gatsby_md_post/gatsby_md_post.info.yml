@@ -1,0 +1,9 @@
+name: 'Gatsby Markdown Post'
+type: module
+description: 'Markdown posts for use with the Drupal Markdown Post Gatsby theme'
+core: 8.x
+package: Gatsby
+dependencies:
+  - 'drupal:jsonapi'
+  - 'insert:insert'
+  - 'markdown:markdown'
