@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
+    - field.storage.node.field_gatsby_md_post_image
     - node.type.gatsby_md_post_markdown_post
   module:
     - image
-id: node.gatsby_md_post_markdown_post.field_image
-field_name: field_image
+id: node.gatsby_md_post_markdown_post.field_gatsby_md_post_image
+field_name: field_gatsby_md_post_image
 entity_type: node
 bundle: gatsby_md_post_markdown_post
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

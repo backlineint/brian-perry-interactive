@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.gatsby_md_post_markdown_post.body
-    - field.field.node.gatsby_md_post_markdown_post.field_image
+    - field.field.node.gatsby_md_post_markdown_post.field_gatsby_md_post_image
     - field.field.node.gatsby_md_post_markdown_post.field_tags
     - node.type.gatsby_md_post_markdown_post
   module:
@@ -35,4 +35,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_image: true
+  field_gatsby_md_post_image: true
