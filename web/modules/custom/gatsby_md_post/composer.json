@@ -11,6 +11,7 @@
         }
     ],
     "require": {
-        "drupal/insert": "^1.0"
+        "drupal/insert": "^1.0",
+        "drupal/markdown": "^1.3"
     }
 }
